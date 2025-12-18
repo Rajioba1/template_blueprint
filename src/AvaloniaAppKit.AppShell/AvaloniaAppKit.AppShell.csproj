@@ -10,8 +10,6 @@
     <PackageReference Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
     <PackageReference Include="CommunityToolkit.Mvvm" Version="$(CommunityToolkitMvvmVersion)" />
     <PackageReference Include="DynamicData" Version="9.0.4" />
-    <PackageReference Include="Serilog" Version="4.1.0" />
-    <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
