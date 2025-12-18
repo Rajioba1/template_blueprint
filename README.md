@@ -2,6 +2,8 @@
 
 A production-ready template for building Avalonia desktop applications with TreeDataGrid, navigation, debug console, and data import capabilities.
 
+![AvaloniaAppKit demo screenshot](docs/screenshots/avalonia_template.png)
+
 ## Features
 
 - **Modern UI Framework**: Avalonia 11.3.8 with Fluent theme
