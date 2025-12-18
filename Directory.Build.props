@@ -1,0 +1,35 @@
+<Project>
+  <PropertyGroup>
+    <!-- Shared build properties -->
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+
+    <!-- Version management -->
+    <AvaloniaVersion>11.3.8</AvaloniaVersion>
+    <TreeDataGridVersion>11.0.10</TreeDataGridVersion>
+    <CommunityToolkitMvvmVersion>8.2.2</CommunityToolkitMvvmVersion>
+
+    <!-- NuGet package metadata - UPDATE THESE FOR YOUR PROJECT -->
+    <Authors>AvaloniaAppKit Contributors</Authors>
+    <Company>AvaloniaAppKit</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/AvaloniaAppKit/AvaloniaAppKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AvaloniaAppKit/AvaloniaAppKit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>avalonia;template;datagrid;mvvm;desktop</PackageTags>
+    <Copyright>Copyright (c) 2025 AvaloniaAppKit Contributors</Copyright>
+    <Description>Production-ready Avalonia application template with TreeDataGrid, navigation, and debug console.</Description>
+
+    <!-- Package versioning -->
+    <Version>1.0.0</Version>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+</Project>

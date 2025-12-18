@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Optional Excel import support for AvaloniaAppKit template. Add this package only if you need .xlsx import.</Description>
+    <PackageId>AvaloniaAppKit.Import.Excel</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AvaloniaAppKit.Core\AvaloniaAppKit.Core.csproj" />
+  </ItemGroup>
+
+</Project>
