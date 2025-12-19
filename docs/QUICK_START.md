@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get up and running with AvaloniaTemplateBlueprint in minutes.
+Get up and running with TemplateBlueprint in minutes.
 
 ## Prerequisites
 
@@ -16,13 +16,13 @@ cd MyApp
 
 ## Step 2: Rename the Solution
 
-1. Rename `AvaloniaTemplateBlueprint.sln` to `MyApp.sln`
+1. Rename `TemplateBlueprint.sln` to `MyApp.sln`
 2. Rename project folders under `src/`:
-   - `AvaloniaTemplateBlueprint.Core` → `MyApp.Core`
-   - `AvaloniaTemplateBlueprint.Controls` → `MyApp.Controls`
-   - `AvaloniaTemplateBlueprint.AppShell` → `MyApp.AppShell`
-   - `AvaloniaTemplateBlueprint.Demo` → `MyApp`
-3. Update namespace references (find and replace `AvaloniaTemplateBlueprint` → `MyApp`)
+   - `TemplateBlueprint.Core` → `MyApp.Core`
+   - `TemplateBlueprint.Controls` → `MyApp.Controls`
+   - `TemplateBlueprint.AppShell` → `MyApp.AppShell`
+   - `TemplateBlueprint.Demo` → `MyApp`
+3. Update namespace references (find and replace `TemplateBlueprint` → `MyApp`)
 
 ## Step 3: Build and Run
 
@@ -150,3 +150,4 @@ _logger.LogError(ex, "Operation failed");
 - Read [ARCHITECTURE.md](ARCHITECTURE.md) for detailed architecture documentation
 - Check out the `samples/` folder for more examples
 - See the main [README.md](../README.md) for API reference
+

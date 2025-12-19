@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Optional Excel import support for TemplateBlueprint. Add this package only if you need .xlsx import.</Description>
+    <PackageId>TemplateBlueprint.Import.Excel</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemplateBlueprint.Core\TemplateBlueprint.Core.csproj" />
+  </ItemGroup>
+
+</Project>

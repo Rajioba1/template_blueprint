@@ -1,6 +1,6 @@
 # Third-Party Attributions
 
-AvaloniaTemplateBlueprint uses the following open-source libraries:
+TemplateBlueprint uses the following open-source libraries:
 
 ## Avalonia UI
 
@@ -73,3 +73,4 @@ AvaloniaTemplateBlueprint uses the following open-source libraries:
 ---
 
 All trademarks and registered trademarks are the property of their respective owners.
+

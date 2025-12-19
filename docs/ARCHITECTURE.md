@@ -1,28 +1,28 @@
-# AvaloniaTemplateBlueprint Architecture
+# TemplateBlueprint Architecture
 
 ## Overview
 
-AvaloniaTemplateBlueprint follows a layered architecture with clear separation of concerns:
+TemplateBlueprint follows a layered architecture with clear separation of concerns:
 
 ```
 +-------------------------------------------------------------+
 |                    Your Application                         |
-|               (AvaloniaTemplateBlueprint.Demo example)                 |
+|               (TemplateBlueprint.Demo example)                 |
 +-------------------------------------------------------------+
-|                  AvaloniaTemplateBlueprint.AppShell                    |
+|                  TemplateBlueprint.AppShell                    |
 |    Navigation | Debug Console | Behaviors | Workspaces     |
 +-------------------------------------------------------------+
-|                 AvaloniaTemplateBlueprint.Controls                     |
+|                 TemplateBlueprint.Controls                     |
 |       TreeDataGrid Extensions | Search | Clipboard         |
 +-------------------------------------------------------------+
-|                   AvaloniaTemplateBlueprint.Core                       |
+|                   TemplateBlueprint.Core                       |
 |              Interfaces | Events | Models                   |
 +-------------------------------------------------------------+
 |    Avalonia UI    |  TreeDataGrid  |  CommunityToolkit.Mvvm |
 +-------------------------------------------------------------+
 ```
 
-## Core Package (AvaloniaTemplateBlueprint.Core)
+## Core Package (TemplateBlueprint.Core)
 
 The Core package defines interfaces that act as "template contracts". Applications implement these interfaces to customize behavior while maintaining compatibility with AppShell components.
 
@@ -83,7 +83,7 @@ public interface IAppSettingsService
 }
 ```
 
-## Controls Package (AvaloniaTemplateBlueprint.Controls)
+## Controls Package (TemplateBlueprint.Controls)
 
 Provides TreeDataGrid enhancements through behaviors and extension classes.
 
@@ -111,7 +111,7 @@ public class GridSearchAdapter<T> : IGridSearchAdapter where T : class
 - **ClipboardBehavior**: Copy/paste with tab-separated format for Excel compatibility
 - **FindReplaceBehavior**: Ctrl+F popup for inline search
 
-## AppShell Package (AvaloniaTemplateBlueprint.AppShell)
+## AppShell Package (TemplateBlueprint.AppShell)
 
 Provides the application shell components.
 
@@ -294,3 +294,4 @@ adapter.SearchMatchChanged += (s, e) =>
     StatusText = $"Match {e.CurrentIndex + 1} of {e.TotalMatches}";
 };
 ```
+
