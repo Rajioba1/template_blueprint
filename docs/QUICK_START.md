@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get up and running with AvaloniaAppKit in minutes.
+Get up and running with AvaloniaTemplateBlueprint in minutes.
 
 ## Prerequisites
 
@@ -16,13 +16,13 @@ cd MyApp
 
 ## Step 2: Rename the Solution
 
-1. Rename `AvaloniaAppKit.sln` to `MyApp.sln`
+1. Rename `AvaloniaTemplateBlueprint.sln` to `MyApp.sln`
 2. Rename project folders under `src/`:
-   - `AvaloniaAppKit.Core` → `MyApp.Core`
-   - `AvaloniaAppKit.Controls` → `MyApp.Controls`
-   - `AvaloniaAppKit.AppShell` → `MyApp.AppShell`
-   - `AvaloniaAppKit.Demo` → `MyApp`
-3. Update namespace references (find and replace `AvaloniaAppKit` → `MyApp`)
+   - `AvaloniaTemplateBlueprint.Core` → `MyApp.Core`
+   - `AvaloniaTemplateBlueprint.Controls` → `MyApp.Controls`
+   - `AvaloniaTemplateBlueprint.AppShell` → `MyApp.AppShell`
+   - `AvaloniaTemplateBlueprint.Demo` → `MyApp`
+3. Update namespace references (find and replace `AvaloniaTemplateBlueprint` → `MyApp`)
 
 ## Step 3: Build and Run
 

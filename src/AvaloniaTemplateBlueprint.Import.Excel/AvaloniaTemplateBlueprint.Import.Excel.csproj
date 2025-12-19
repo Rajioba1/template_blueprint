@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Optional Excel import support for AvaloniaTemplateBlueprint template. Add this package only if you need .xlsx import.</Description>
+    <PackageId>AvaloniaTemplateBlueprint.Import.Excel</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AvaloniaTemplateBlueprint.Core\AvaloniaTemplateBlueprint.Core.csproj" />
+  </ItemGroup>
+
+</Project>

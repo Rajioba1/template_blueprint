@@ -1,6 +1,6 @@
 # Privacy & Log Handling
 
-AvaloniaAppKit includes a debug console feature that captures application logs. This document explains the privacy implications and how sensitive data is handled.
+AvaloniaTemplateBlueprint includes a debug console feature that captures application logs. This document explains the privacy implications and how sensitive data is handled.
 
 ## Debug Console Overview
 
@@ -109,4 +109,4 @@ The debug console provides two copy options:
 
 ## Telemetry
 
-AvaloniaAppKit does **not** send any telemetry or analytics data. All logging is local to the user's machine.
+AvaloniaTemplateBlueprint does **not** send any telemetry or analytics data. All logging is local to the user's machine.

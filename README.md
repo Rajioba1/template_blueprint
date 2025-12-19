@@ -1,24 +1,24 @@
-# AvaloniaAppKit
+# AvaloniaTemplateBlueprint
 
 A production-ready template for building mordern Avalonia desktop applications with TreeDataGrid, navigation, debug console, and data import features.
 
-![AvaloniaAppKit demo screenshot](docs/screenshots/avalonia_template.png)
+![AvaloniaTemplateBlueprint demo screenshot](docs/screenshots/avalonia_template.png)
 
 ## NuGet
 
-AvaloniaAppKit is published on NuGet:
+AvaloniaTemplateBlueprint is published on NuGet:
 
-- `AvaloniaAppKit.Core`: https://www.nuget.org/packages/AvaloniaAppKit.Core
-- `AvaloniaAppKit.Controls`: https://www.nuget.org/packages/AvaloniaAppKit.Controls
-- `AvaloniaAppKit.AppShell`: https://www.nuget.org/packages/AvaloniaAppKit.AppShell
-- `AvaloniaAppKit.Import.Excel`: https://www.nuget.org/packages/AvaloniaAppKit.Import.Excel
+- `AvaloniaTemplateBlueprint.Core`: https://www.nuget.org/packages/AvaloniaTemplateBlueprint.Core
+- `AvaloniaTemplateBlueprint.Controls`: https://www.nuget.org/packages/AvaloniaTemplateBlueprint.Controls
+- `AvaloniaTemplateBlueprint.AppShell`: https://www.nuget.org/packages/AvaloniaTemplateBlueprint.AppShell
+- `AvaloniaTemplateBlueprint.Import.Excel`: https://www.nuget.org/packages/AvaloniaTemplateBlueprint.Import.Excel
 
 Install (example):
 
 ```bash
-dotnet add package AvaloniaAppKit.Core
-dotnet add package AvaloniaAppKit.Controls
-dotnet add package AvaloniaAppKit.AppShell
+dotnet add package AvaloniaTemplateBlueprint.Core
+dotnet add package AvaloniaTemplateBlueprint.Controls
+dotnet add package AvaloniaTemplateBlueprint.AppShell
 ```
 
 ## Features
@@ -35,11 +35,11 @@ dotnet add package AvaloniaAppKit.AppShell
 
 ```
 src/
-├── AvaloniaAppKit.Core/          # Interfaces and shared types
-├── AvaloniaAppKit.Controls/      # TreeDataGrid extensions
-├── AvaloniaAppKit.AppShell/      # Navigation, debug console, dialogs
-├── AvaloniaAppKit.Import.Excel/  # Optional Excel import (ClosedXML)
-└── AvaloniaAppKit.Demo/          # Demo application
+├── AvaloniaTemplateBlueprint.Core/          # Interfaces and shared types
+├── AvaloniaTemplateBlueprint.Controls/      # TreeDataGrid extensions
+├── AvaloniaTemplateBlueprint.AppShell/      # Navigation, debug console, dialogs
+├── AvaloniaTemplateBlueprint.Import.Excel/  # Optional Excel import (ClosedXML)
+└── AvaloniaTemplateBlueprint.Demo/          # Demo application
 
 samples/                          # Example applications
 docs/                             # Documentation
@@ -56,19 +56,19 @@ docs/                             # Documentation
 
 ```bash
 git clone https://github.com/Rajioba1/avalonia_template.git
-cd AvaloniaAppKit
+cd AvaloniaTemplateBlueprint
 dotnet build
 ```
 
 ### Run Demo
 
 ```bash
-dotnet run --project src/AvaloniaAppKit.Demo
+dotnet run --project src/AvaloniaTemplateBlueprint.Demo
 ```
 
 ## Package Overview
 
-### AvaloniaAppKit.Core
+### AvaloniaTemplateBlueprint.Core
 
 Core interfaces that define the "template contracts":
 
@@ -85,7 +85,7 @@ Core interfaces that define the "template contracts":
 | `IProjectDirtyTracker` | Unsaved changes tracking |
 | `ILogConsoleSink` | Debug console integration |
 
-### AvaloniaAppKit.Controls
+### AvaloniaTemplateBlueprint.Controls
 
 TreeDataGrid enhancements:
 
@@ -94,7 +94,7 @@ TreeDataGrid enhancements:
 - `ClipboardBehavior` - Copy/paste with tab-separated format
 - `FindReplaceBehavior` - Ctrl+F/Ctrl+H support
 
-### AvaloniaAppKit.AppShell
+### AvaloniaTemplateBlueprint.AppShell
 
 Application shell components:
 
@@ -121,7 +121,7 @@ Application shell components:
 - `DebugConsoleWindow` - VS Code-style dark console
 - `ColumnRoleMapperDialog` - Column mapping for imports
 
-### AvaloniaAppKit.Import.Excel (Optional)
+### AvaloniaTemplateBlueprint.Import.Excel (Optional)
 
 Excel file import using ClosedXML:
 
@@ -222,7 +222,7 @@ if (_settingsService.IsFirstRun)
 To enable Excel import, uncomment the project reference in your application's .csproj:
 
 ```xml
-<ProjectReference Include="..\AvaloniaAppKit.Import.Excel\AvaloniaAppKit.Import.Excel.csproj" />
+<ProjectReference Include="..\AvaloniaTemplateBlueprint.Import.Excel\AvaloniaTemplateBlueprint.Import.Excel.csproj" />
 ```
 
 Then detect availability at runtime:
@@ -233,7 +233,7 @@ public static bool ExcelImportAvailable { get; private set; }
 public static void DetectFeatures()
 {
     ExcelImportAvailable = Type.GetType(
-        "AvaloniaAppKit.Import.Excel.ExcelImportService, AvaloniaAppKit.Import.Excel"
+        "AvaloniaTemplateBlueprint.Import.Excel.ExcelImportService, AvaloniaTemplateBlueprint.Import.Excel"
     ) != null;
 }
 ```
@@ -258,7 +258,7 @@ Shared MSBuild properties for all projects:
 
 ### Customizing the Template
 
-1. **Rename namespaces**: Replace `AvaloniaAppKit` with your app name
+1. **Rename namespaces**: Replace `AvaloniaTemplateBlueprint` with your app name
 2. **Add app icon**: Place your icon at `Assets/app-icon.ico`
 3. **Customize theme**: Modify styles in `Styles/` folder
 4. **Add workspaces**: Extend `WorkspaceViewModel` for your documents

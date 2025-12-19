@@ -1,12 +1,26 @@
 # Third-Party Attributions
 
-AvaloniaAppKit uses the following open-source libraries:
+AvaloniaTemplateBlueprint uses the following open-source libraries:
 
 ## Avalonia UI
 
 - **License**: MIT
 - **Repository**: https://github.com/AvaloniaUI/Avalonia
 - **Copyright**: The Avalonia Project
+
+## Avalonia.Themes.Fluent
+
+- **License**: MIT
+- **Repository**: https://github.com/AvaloniaUI/Avalonia
+- **Copyright**: The Avalonia Project
+- **Note**: Inspired by Microsoft Fluent Design System
+
+## Avalonia.Fonts.Inter
+
+- **License**: MIT (Avalonia package), SIL Open Font License 1.1 (Inter font)
+- **Repository**: https://github.com/AvaloniaUI/Avalonia
+- **Copyright**: The Avalonia Project (package), Rasmus Andersson (Inter font)
+- **Font Website**: https://rsms.me/inter/
 
 ## Avalonia.Controls.TreeDataGrid
 

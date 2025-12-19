@@ -1,28 +1,28 @@
-# AvaloniaAppKit Architecture
+# AvaloniaTemplateBlueprint Architecture
 
 ## Overview
 
-AvaloniaAppKit follows a layered architecture with clear separation of concerns:
+AvaloniaTemplateBlueprint follows a layered architecture with clear separation of concerns:
 
 ```
 +-------------------------------------------------------------+
 |                    Your Application                         |
-|               (AvaloniaAppKit.Demo example)                 |
+|               (AvaloniaTemplateBlueprint.Demo example)                 |
 +-------------------------------------------------------------+
-|                  AvaloniaAppKit.AppShell                    |
+|                  AvaloniaTemplateBlueprint.AppShell                    |
 |    Navigation | Debug Console | Behaviors | Workspaces     |
 +-------------------------------------------------------------+
-|                 AvaloniaAppKit.Controls                     |
+|                 AvaloniaTemplateBlueprint.Controls                     |
 |       TreeDataGrid Extensions | Search | Clipboard         |
 +-------------------------------------------------------------+
-|                   AvaloniaAppKit.Core                       |
+|                   AvaloniaTemplateBlueprint.Core                       |
 |              Interfaces | Events | Models                   |
 +-------------------------------------------------------------+
 |    Avalonia UI    |  TreeDataGrid  |  CommunityToolkit.Mvvm |
 +-------------------------------------------------------------+
 ```
 
-## Core Package (AvaloniaAppKit.Core)
+## Core Package (AvaloniaTemplateBlueprint.Core)
 
 The Core package defines interfaces that act as "template contracts". Applications implement these interfaces to customize behavior while maintaining compatibility with AppShell components.
 
@@ -83,7 +83,7 @@ public interface IAppSettingsService
 }
 ```
 
-## Controls Package (AvaloniaAppKit.Controls)
+## Controls Package (AvaloniaTemplateBlueprint.Controls)
 
 Provides TreeDataGrid enhancements through behaviors and extension classes.
 
@@ -111,7 +111,7 @@ public class GridSearchAdapter<T> : IGridSearchAdapter where T : class
 - **ClipboardBehavior**: Copy/paste with tab-separated format for Excel compatibility
 - **FindReplaceBehavior**: Ctrl+F popup for inline search
 
-## AppShell Package (AvaloniaAppKit.AppShell)
+## AppShell Package (AvaloniaTemplateBlueprint.AppShell)
 
 Provides the application shell components.
 

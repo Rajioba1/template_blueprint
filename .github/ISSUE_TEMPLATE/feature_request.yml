@@ -1,5 +1,5 @@
 name: Feature Request
-description: Suggest a new feature for AvaloniaAppKit
+description: Suggest a new feature for AvaloniaTemplateBlueprint
 labels: [enhancement]
 body:
   - type: markdown

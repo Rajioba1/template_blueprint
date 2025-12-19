@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>TreeDataGrid extensions and behaviors for AvaloniaTemplateBlueprint template.</Description>
+    <PackageId>AvaloniaTemplateBlueprint.Controls</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
+    <!-- Pin to specific version to avoid breaking changes -->
+    <PackageReference Include="Avalonia.Controls.TreeDataGrid" Version="[$(TreeDataGridVersion)]" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AvaloniaTemplateBlueprint.Core\AvaloniaTemplateBlueprint.Core.csproj" />
+  </ItemGroup>
+
+</Project>

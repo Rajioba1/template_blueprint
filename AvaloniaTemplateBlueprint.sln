@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A93196F1-C93E-4CDE-AC50-2350C55BE3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTemplateBlueprint.Core", "src\AvaloniaTemplateBlueprint.Core\AvaloniaTemplateBlueprint.Core.csproj", "{47117798-A554-4502-BCB3-57CD04D2CAAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTemplateBlueprint.Controls", "src\AvaloniaTemplateBlueprint.Controls\AvaloniaTemplateBlueprint.Controls.csproj", "{D98E3A0F-16AA-453D-A21E-050E3792B083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTemplateBlueprint.AppShell", "src\AvaloniaTemplateBlueprint.AppShell\AvaloniaTemplateBlueprint.AppShell.csproj", "{EC1E3D54-B8D5-4616-AB0E-1830D497E414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTemplateBlueprint.Import.Excel", "src\AvaloniaTemplateBlueprint.Import.Excel\AvaloniaTemplateBlueprint.Import.Excel.csproj", "{6295BCBD-0ADC-4779-9ACE-C5161CAFE837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTemplateBlueprint.Demo", "src\AvaloniaTemplateBlueprint.Demo\AvaloniaTemplateBlueprint.Demo.csproj", "{2A93AD61-C9C6-43F2-B49D-9F6DC77413D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47117798-A554-4502-BCB3-57CD04D2CAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47117798-A554-4502-BCB3-57CD04D2CAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47117798-A554-4502-BCB3-57CD04D2CAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47117798-A554-4502-BCB3-57CD04D2CAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98E3A0F-16AA-453D-A21E-050E3792B083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98E3A0F-16AA-453D-A21E-050E3792B083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98E3A0F-16AA-453D-A21E-050E3792B083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98E3A0F-16AA-453D-A21E-050E3792B083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1E3D54-B8D5-4616-AB0E-1830D497E414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1E3D54-B8D5-4616-AB0E-1830D497E414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1E3D54-B8D5-4616-AB0E-1830D497E414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1E3D54-B8D5-4616-AB0E-1830D497E414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6295BCBD-0ADC-4779-9ACE-C5161CAFE837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6295BCBD-0ADC-4779-9ACE-C5161CAFE837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6295BCBD-0ADC-4779-9ACE-C5161CAFE837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6295BCBD-0ADC-4779-9ACE-C5161CAFE837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A93AD61-C9C6-43F2-B49D-9F6DC77413D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A93AD61-C9C6-43F2-B49D-9F6DC77413D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A93AD61-C9C6-43F2-B49D-9F6DC77413D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A93AD61-C9C6-43F2-B49D-9F6DC77413D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47117798-A554-4502-BCB3-57CD04D2CAAF} = {A93196F1-C93E-4CDE-AC50-2350C55BE3C2}
+		{D98E3A0F-16AA-453D-A21E-050E3792B083} = {A93196F1-C93E-4CDE-AC50-2350C55BE3C2}
+		{EC1E3D54-B8D5-4616-AB0E-1830D497E414} = {A93196F1-C93E-4CDE-AC50-2350C55BE3C2}
+		{6295BCBD-0ADC-4779-9ACE-C5161CAFE837} = {A93196F1-C93E-4CDE-AC50-2350C55BE3C2}
+		{2A93AD61-C9C6-43F2-B49D-9F6DC77413D7} = {A93196F1-C93E-4CDE-AC50-2350C55BE3C2}
+	EndGlobalSection
+EndGlobal

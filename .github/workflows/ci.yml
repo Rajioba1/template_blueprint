@@ -22,11 +22,11 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Restore dependencies
-        run: dotnet restore AvaloniaAppKit.sln
+        run: dotnet restore AvaloniaTemplateBlueprint.sln
 
       - name: Build
-        run: dotnet build AvaloniaAppKit.sln --no-restore -c Release
+        run: dotnet build AvaloniaTemplateBlueprint.sln --no-restore -c Release
 
       - name: Test
-        run: dotnet test AvaloniaAppKit.sln --no-build -c Release --verbosity normal
+        run: dotnet test AvaloniaTemplateBlueprint.sln --no-build -c Release --verbosity normal
         continue-on-error: true  # No tests yet

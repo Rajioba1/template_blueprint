@@ -1,10 +1,10 @@
 # Sample Projects
 
-This folder contains sample projects demonstrating AvaloniaAppKit features.
+This folder contains sample projects demonstrating AvaloniaTemplateBlueprint features.
 
 ## Available Samples
 
-### Demo Application (`../src/AvaloniaAppKit.Demo`)
+### Demo Application (`../src/AvaloniaTemplateBlueprint.Demo`)
 
 The main demo application showcases all core features:
 
@@ -16,7 +16,7 @@ The main demo application showcases all core features:
 
 To run:
 ```bash
-dotnet run --project ../src/AvaloniaAppKit.Demo
+dotnet run --project ../src/AvaloniaTemplateBlueprint.Demo
 ```
 
 ## Planned Samples
@@ -60,8 +60,8 @@ Data import/export focus:
        <OutputType>WinExe</OutputType>
      </PropertyGroup>
      <ItemGroup>
-       <ProjectReference Include="../../src/AvaloniaAppKit.Core/AvaloniaAppKit.Core.csproj" />
-       <ProjectReference Include="../../src/AvaloniaAppKit.AppShell/AvaloniaAppKit.AppShell.csproj" />
+       <ProjectReference Include="../../src/AvaloniaTemplateBlueprint.Core/AvaloniaTemplateBlueprint.Core.csproj" />
+       <ProjectReference Include="../../src/AvaloniaTemplateBlueprint.AppShell/AvaloniaTemplateBlueprint.AppShell.csproj" />
      </ItemGroup>
    </Project>
    ```

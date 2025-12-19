@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug in AvaloniaAppKit
+description: Report a bug in AvaloniaTemplateBlueprint
 labels: [bug]
 body:
   - type: markdown
@@ -40,7 +40,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: AvaloniaAppKit version
+      description: AvaloniaTemplateBlueprint version
       placeholder: "1.0.0"
     validations:
       required: true
