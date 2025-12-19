@@ -23,6 +23,29 @@ dotnet add package TemplateBlueprint.Import.Excel
 
 ```
 
+Publish Status
+
+All 4 packages published successfully:
+
+- TemplateBlueprint.Core 1.0.0
+- TemplateBlueprint.Controls 1.0.0
+- TemplateBlueprint.AppShell 1.0.0
+- TemplateBlueprint.Import.Excel 1.0.0
+
+Your packages will be live in a few minutes:
+
+- https://www.nuget.org/packages/TemplateBlueprint.Core
+- https://www.nuget.org/packages/TemplateBlueprint.Controls
+- https://www.nuget.org/packages/TemplateBlueprint.AppShell
+- https://www.nuget.org/packages/TemplateBlueprint.Import.Excel
+
+Users can install with:
+
+```bash
+dotnet add package TemplateBlueprint.AppShell
+
+```
+
 ## Features
 - **Modern UI Framework**: Avalonia 11.3.8 with Fluent theme
 - **High-Performance Data Grid**: TreeDataGrid with search, selection, and clipboard support
