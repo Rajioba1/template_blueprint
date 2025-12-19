@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Core interfaces and services for AvaloniaTemplateBlueprint template.</Description>
-    <PackageId>AvaloniaTemplateBlueprint.Core</PackageId>
+    <PackageId>TemplateBlueprint.Core</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

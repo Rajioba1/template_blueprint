@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>TreeDataGrid extensions and behaviors for AvaloniaTemplateBlueprint template.</Description>
-    <PackageId>AvaloniaTemplateBlueprint.Controls</PackageId>
+    <PackageId>TemplateBlueprint.Controls</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

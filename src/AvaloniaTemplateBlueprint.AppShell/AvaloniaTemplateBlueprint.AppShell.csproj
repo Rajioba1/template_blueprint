@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Application shell components: navigation, workspaces, debug console for AvaloniaTemplateBlueprint template.</Description>
-    <PackageId>AvaloniaTemplateBlueprint.AppShell</PackageId>
+    <PackageId>TemplateBlueprint.AppShell</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
